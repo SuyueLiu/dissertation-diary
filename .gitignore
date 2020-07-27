@@ -128,8 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-*.jpg
-*.txt
+/*.jpg
+/*.txt
 
 # other dir and files
 /supervisely-to-darknet/
