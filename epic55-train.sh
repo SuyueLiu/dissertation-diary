@@ -17,8 +17,6 @@ module load languages/anaconda3/3.7
 module load tools/git/2.18.0
 export LD_LIBRARY_PATH=/mnt/storage/software/languages/anaconda/Anaconda3-2019-3.7/lib:$LD_LIBRARY_PATH 
 
-echo 'Runing on:' $HOSTNAME
-
 cd ../u-yolov3
 
 srun python train.py --cfg 'cfg/yolov3-epic55-obj.cfg' --data 'data/epic55/epic55.data' --epochs 150 --img-size 608 --batch-size 20 --weights '' --name 'epic55-object-detection'

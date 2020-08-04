@@ -134,3 +134,4 @@ dmypy.json
 # other dir and files
 /supervisely-to-darknet/
 /yolov3/
+/dl-label-conversion/
