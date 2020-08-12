@@ -135,3 +135,7 @@ dmypy.json
 /supervisely-to-darknet/
 /yolov3/
 /dl-label-conversion/
+/action-detection/
+/hands_action_crop/
+/hands_action_detected/
+/hands_action_raw/
